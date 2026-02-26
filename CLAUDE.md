@@ -32,7 +32,7 @@ Total number of people in teams: [TOTAL_PEOPLE]
 ## Vault Structure
 
 ```
-amnOS/
+EngineeringOS/
 ├── README.md                    # How to use this system
 ├── writing_style.md             # My writing style
 ├── principles.md                # My leadership principles

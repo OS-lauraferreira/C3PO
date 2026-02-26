@@ -1,4 +1,4 @@
-# amnOS — Engineering Leader Operating System
+# EngineeringOS — Engineering Leader Operating System
 
 A personal operating system for engineering leaders, built on Obsidian and powered by Claude Code.
 
@@ -8,7 +8,7 @@ Based on [Rohun Jauhar's CEO Personal OS](https://x.com/rohunjauhar/status/19132
 
 ## What This Is
 
-amnOS is a vault of markdown files that work together as your daily operating system. Claude Code acts as your AI chief of staff — it reads your context (goals, meetings, patterns, writing style) and helps you run your day, prepare for meetings, draft communications, and reflect on your progress.
+EngineeringOS is a vault of markdown files that work together as your daily operating system. Claude Code acts as your AI chief of staff — it reads your context (goals, meetings, patterns, writing style) and helps you run your day, prepare for meetings, draft communications, and reflect on your progress.
 
 **15 built-in skills** (slash commands) automate your workflows:
 - `/morning` — start your day with priorities
@@ -47,15 +47,15 @@ Download from [git-scm.com](https://git-scm.com). Used for version control and d
 ### Step 1: Clone this repo
 
 ```bash
-git clone <your-repo-url> amnOS
-cd amnOS
+git clone <your-repo-url> EngineeringOS
+cd EngineeringOS
 ```
 
 ### Step 2: Open as an Obsidian vault
 
 1. Open Obsidian
 2. Click "Open folder as vault"
-3. Select the `amnOS` folder
+3. Select the `EngineeringOS` folder
 
 ### Step 3: Install Obsidian plugins
 
@@ -86,7 +86,7 @@ Open each file and replace the placeholders:
 ### Step 5: Start using it
 
 ```bash
-cd amnOS
+cd EngineeringOS
 claude
 ```
 
