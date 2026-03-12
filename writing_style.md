@@ -12,27 +12,27 @@ Rate yourself on each spectrum (mark with X):
 
 ### Formality
 ```
-Very Formal [ ] [ ] [ ] [ ] [ ] Very Casual
+Very Formal [ ] [ ] [X] [ ] [ ] Very Casual
 ```
 
 ### Verbosity
 ```
-Very Concise [ ] [ ] [ ] [ ] [ ] Very Verbose
+Very Concise [ ] [X] [ ] [ ] [ ] Very Verbose
 ```
 
 ### Directness
 ```
-Very Direct [ ] [ ] [ ] [ ] [ ] Very Cautious
+Very Direct [ ] [X] [ ] [ ] [ ] Very Cautious
 ```
 
 ### Warmth
 ```
-All Business [ ] [ ] [ ] [ ] [ ] Highly Personal
+All Business [ ] [ ] [X] [ ] [ ] Highly Personal
 ```
 
 ### Confidence
 ```
-Tentative [ ] [ ] [ ] [ ] [ ] Assertive
+Tentative [ ] [ ] [ ] [X] [ ] Assertive
 ```
 
 ---
@@ -41,8 +41,11 @@ Tentative [ ] [ ] [ ] [ ] [ ] Assertive
 
 ### I Sound Like Someone Who...
 
-- [Describe your communication personality — e.g., "values clarity over diplomacy"]
-- [How you want people to feel when reading your messages]
+- values clarity and structure - everything has a purpose and a clear outcome
+- prefers action over discussion and always explain the "why"
+- thinks in "we" and "team", not "I" - builds share ownership
+- is transparent about context and reasoning before making asks
+- acknowledges impact on others and appreciate effort
 - [Your communication style in a sentence]
 
 ### Sentence Patterns
@@ -50,14 +53,15 @@ Tentative [ ] [ ] [ ] [ ] [ ] Assertive
 **Average sentence length:** [Short / Medium / Long]
 
 **Typical structure:**
-- [ ] Short, punchy sentences
-- [ ] Longer, flowing sentences with clauses
-- [ ] Mix—short for emphasis, longer for explanation
+- [X ] Mix—short for emphasis, longer for explanation
+- active voice predominantly
+- uses colors, bullet points and emojis for clarity
+- clear subject -action-outcome structure
 
 **Paragraph habits:**
-- [ ] One idea per paragraph, very structured
-- [ ] Conversational flow, natural breaks
-- [ ] Dense paragraphs with multiple ideas
+- One idea per paragraph, very structured
+- bullet points to break down complex information
+- heavy use of sections with bold headers (goal, what this means for you, how it works )
 
 ---
 
@@ -66,31 +70,63 @@ Tentative [ ] [ ] [ ] [ ] [ ] Assertive
 *List words and phrases that appear regularly in your writing:*
 
 ### Openers I Use
-- [How you start emails to your team]
-- [How you start emails to executives]
-- [How you start Slack messages]
-
+- Start emails to your team: "Hi team!"
+- Start emails to executives: "Hello [person's name], hope this email finds you well."
+- Start Slack messages: "Hi  [person's name], hope you're fine." here is an example: "
+		-**![:announcement:](https://emoji.slack-edge.com/T0878KDDQN5/announcement/475d3402271cf8dd.png)** **[ODC Change Management] Process Optimizations & Compliance Updates**  
+		**![:gear:](https://a.slack-edge.com/production-standard-emoji-assets/15.0/google-medium/2699-fe0f@2x.png)** **Action required - Early assignment of the "Approver" field & Emergency RFC criteria**  
+---------------------  
+  
+Hi team!  
+During this year, we expect to introduce some improvements to our Change Management process to ensure better visibility and faster deployments.  
+  
+Starting Friday (**March 13th)**, we will perform the following updates: ... ""
 ### Transitions I Use
-- [Transition phrase 1]
-- [Transition phrase 2]
-- [Transition phrase 3]
+- Adding info: "Another point to consider is..."
+- Shifting Gears: "Regarding [Topic],"
+- Contrasting: "However,"
+- Closing: "To wrap things up," or "As a next step,"
+- To give an example: "For instance", or "Specifically"
+- To emphasize urgency: "Most importantly"
+- To confirm agreement: "Following up on..."
+- To give an alternative: "Having said that"
 
 ### Ways I Express Agreement
-- [Agreement phrase 1]
-- [Agreement phrase 2]
+- If it is formal: "I couldn't agree more."
+- If it is casual: "Exactly!"
 
 ### Ways I Push Back
 - [How you disagree or challenge — e.g., "ask questions instead of making statements"]
+- "How would we handle [problem] if we went with that?"
+- "That’s an interesting take, but have you thought about...?"
+- "I respect your opinion, but I don't think that's the best move."
+- example: "I'm not sure the data reflects that. What do you think?"
 
 ### How I Close Messages
-- **Email to team:** [Sign-off + name format]
-- **Email to executives:** [Sign-off + signature format]
-- **Slack:** [How you end Slack messages]
+- **Email to team:** Sign-off + First Name
+	- Phrases: "Thank you," / "Thanks," / "My best regards"
+	- Format:    
+    > "Great work on the presentation, everyone!
+    > Thank you, **[Your Name]**"
+    >
+- **Email to executives:** Formal Sign-off + signature format
+	- Phrases: "My best regards," / "Kind regards," / "Respectfully,"
+	- Format:
+    > "I look forward to your feedback on the strategic plan.
+    > 
+    > My best regards, **[Your Name]** 
+    > 
+- **Slack:** Immediate & Action-Oriented
+	- Styles: No formal sign-off needed. Use emojis or abbreviations.  
+	- Format:
+    > "Draft is ready for review in the folder. Let me know your feedback! 👍**"
 
 ### Phrases I Use Frequently
-- [Phrase 1]
-- [Phrase 2]
-- [Phrase 3]
+- If in portugues "alo sobre este [tema]..."
+- If in english "Hi [person], about the [topic]..."
+- "Perfect!"
+- "ok ok"
+- hello ![:hello-bye-corgi-wave:](https://emoji.slack-edge.com/T0878KDDQN5/hello-bye-corgi-wave/7d5a7a23e9c700e9.gif)
 
 ---
 
@@ -124,17 +160,15 @@ Tentative [ ] [ ] [ ] [ ] [ ] Assertive
 - "I'm thrilled to..."
 - "I'm excited to share..."
 - "I wanted to reach out..."
-- "Just following up..."
 - "Happy to help!"
 - "Great question!"
 - "Absolutely!"
-- "Thanks for your patience"
 - "Please don't hesitate to..."
 
 ### Words I Personally Never Use
 *Add your own:*
--
--
+-bad words in general
+-"its your fault"
 -
 
 ---
@@ -144,22 +178,22 @@ Tentative [ ] [ ] [ ] [ ] [ ] Assertive
 ### Email Style
 
 **To my team:**
-- Tone: [e.g., warm, reflective, honest]
-- Length: [e.g., longer, narrative style]
-- Signature: [your sign-off]
+- Tone:  warm, reflective, honest
+- Length: narrative style
+- Signature: [my sign-off]
 
 **To executives:**
-- Tone: [e.g., urgent, direct, data-driven]
-- Length: [e.g., structured, bullet-heavy]
-- Signature: [your sign-off]
+- Tone: data-driven, formal
+- Length: structured, bullet-heavy and outcome focused
+- Signature: [my sign-off]
 
 **To peers:**
-- Tone: [e.g., direct, collaborative]
-- Typical format: [e.g., context → ask → "What do you think?"]
+- Tone: direct, collaborative
+- Typical format: context → ask → "What do you think?"]
 
 **To external partners:**
-- Tone: [e.g., professional but not stiff]
-- Formality level: [e.g., slightly more formal than internal]
+- Tone: professional but not stiff
+- Formality level: slightly more formal than internal
 
 ### Slack/Chat Style
 
@@ -189,7 +223,7 @@ Tentative [ ] [ ] [ ] [ ] [ ] Assertive
 ### Lists
 - [ ] Bullet points
 - [ ] Numbered lists
-- [ ] Mix based on content
+- [x] Mix based on content
 
 ### Headers
 - [ ] Frequent headers, highly structured
@@ -197,7 +231,7 @@ Tentative [ ] [ ] [ ] [ ] [ ] Assertive
 - [ ] Minimal headers, prose-focused
 
 ### Emphasis
-- [ ] **Bold** for emphasis
+- [x] **Bold** for emphasis
 - [ ] *Italics* for emphasis
 - [ ] CAPS for emphasis (use sparingly)
 - [ ] Word choice for emphasis (no formatting needed)
@@ -234,8 +268,9 @@ Tentative [ ] [ ] [ ] [ ] [ ] Assertive
 
 ### Never Do This
 - [Anti-pattern 1 — e.g., start with "I hope this email finds you well"]
-- [Anti-pattern 2 — e.g., use excessive enthusiasm]
-- [Anti-pattern 3 — e.g., add unnecessary pleasantries before getting to the point]
+- use excessive enthusiasm
+- add unnecessary pleasantries before getting to the point
+- write a comma before an ending parenthesis
 - [Anti-pattern 4 — e.g., use corporate jargon]
 
 ### Red Flags That It's Not My Voice

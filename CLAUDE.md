@@ -8,24 +8,24 @@
 
 This is a personal operating system for engineering leaders, based on Rohun Jauhar's CEO Personal OS framework, adapted for engineering leadership.
 
-**Owner:** [YOUR_NAME]
-**Role:** [YOUR_ROLE]
-**Company:** [YOUR_COMPANY]
-Assistant Name: [ASSISTANT_NAME]
-Number of teams: [NUMBER_OF_TEAMS]
-Number of direct reports: [NUMBER_OF_DIRECT_REPORTS]
-Total number of people in teams: [TOTAL_PEOPLE]
+**Owner:** Laura Isabel Serrão Ferreira
+**Role:** Senior Process Analyst
+**Company:** Outsystems
+Assistant Name: C3PO
+Number of teams: 0
+Number of direct reports: 1
+Total number of people in teams: 4
 
-| Placeholder                  | Replace With                    |
-| ---------------------------- | ------------------------------- |
-| `[YOUR_NAME]`                | Your full name                  |
-| `[YOUR_ROLE]`                | Your current title              |
-| `[YOUR_COMPANY]`             | Your company name               |
+| Placeholder                  | Replace With                            |
+| ---------------------------- | --------------------------------------- |
+| `[YOUR_NAME]`                | Your full name                          |
+| `[YOUR_ROLE]`                | Your current title                      |
+| `[YOUR_COMPANY]`             | Your company name                       |
 | `[ASSISTANT_NAME]`           | What you want to call your AI assistant |
-| `[NUMBER_OF_TEAMS]`          | How many teams you lead         |
-| `[NUMBER_OF_DIRECT_REPORTS]` | Your direct reports count       |
-| `[TOTAL_PEOPLE]`             | Total people across your teams  |
-| `[CURRENT_PRIORITIES]`       | Your current focus areas        |
+| `[NUMBER_OF_TEAMS]`          | How many teams you lead                 |
+| `[NUMBER_OF_DIRECT_REPORTS]` | Your direct reports count               |
+| `[TOTAL_PEOPLE]`             | Total people across your teams          |
+| `[CURRENT_PRIORITIES]`       | Your current focus areas                |
 
 ---
 

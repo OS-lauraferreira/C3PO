@@ -21,7 +21,9 @@ Before greeting, collect today's context in parallel:
 
 ### Step 2: Brief the day
 
-Present a brief greeting with:
+Start with: **"Good morning Laura! Let's do this!"**
+
+Then present a brief greeting with:
 - Summary of yesterday's carry-forward items (if any).
 - Today's calendar at a glance — the parsed event table from `/calendar`, highlighting conflicts, tentative events needing RSVP, and estimated focus time blocks.
 - Suggest the 3 most important topics to work on today based on goals and calendar shape.
