@@ -16,3 +16,7 @@ desktop.ini
 
 # Optional: uncomment if you don't want uploads tracked
 # uploads/
+
+# Node.js dependencies and lockfiles
+node_modules/
+package-lock.json
