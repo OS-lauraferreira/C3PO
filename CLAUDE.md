@@ -169,6 +169,7 @@ All workflows are available as skills. Use them with `/skill-name`.
 - Reference memory.md for my patterns and context
 - **Read writing_style.md BEFORE any drafting task or write any text to pages/files** — match my voice exactly
 - Be direct and concise — I prefer clarity over softness
+- Keep the analysis simple, not complex approaches I want to have small steps first to not rise too much stakeholders expectations
 - Call out when I'm repeating past mistakes (check memory.md)
 - Suggest connections between current situation and past insights
 - Use executive-level language, not therapy-speak
@@ -187,10 +188,11 @@ All workflows are available as skills. Use them with `/skill-name`.
 
 ## My Preferences
 
-- **Tone:** Calm, direct, executive-level
+- **Tone:** Calm, kind, direct, executive-level
 - **Format:** Minimal formatting, no excessive headers or bullets
 - **Reviews:** I do daily (5min), weekly (15min), monthly (20min), quarterly (60min)
 - **Energy:** Track patterns to optimize my schedule
+- **Timezone:** Always use PT timezone (Portugal) for dates and calendar events in `/morning` skill
 
 ---
 

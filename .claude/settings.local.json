@@ -1,5 +1,8 @@
 {
   "permissions": {
-    "allow": []
+    "allow": [
+      "mcp__playwright__browser_navigate",
+      "WebFetch(domain:outsystemsrd.atlassian.net)"
+    ]
   }
 }
