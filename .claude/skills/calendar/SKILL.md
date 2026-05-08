@@ -18,7 +18,23 @@ View your Google Calendar schedule parsed into a clean markdown table with confl
 
 ## Instructions
 
-### Step 1: Navigate to Google Calendar
+### Plan A: Direct Google Calendar MCP (try this first)
+
+#### Step A1: Try to read events via MCP
+
+Use the available `mcp__claude_ai_Google_Calendar__*` tools to list today's (or this week's) events directly.
+
+- If MCP event tools are available and return data successfully → skip to **Step 3: Parse events**.
+- If authentication is required → call `mcp__claude_ai_Google_Calendar__authenticate` to get the OAuth URL, share it with the user, wait for the callback URL, then call `mcp__claude_ai_Google_Calendar__complete_authentication`. After auth, retry listing events.
+- If MCP tools are unavailable, return an error, or events cannot be retrieved → fall through to **Plan B**.
+
+---
+
+### Plan B: Playwright browser (fallback)
+
+Use this only if Plan A fails or is unavailable.
+
+#### Step B1: Navigate to Google Calendar
 
 Based on the argument (default: today):
 - **today** → navigate Playwright browser to `https://calendar.google.com/calendar/u/0/r/day`
@@ -28,11 +44,13 @@ Use `mcp__playwright__browser_navigate` to open the URL.
 
 Wait 3 seconds for the page to fully load using `mcp__playwright__browser_wait_for`.
 
-### Step 2: Take an accessibility snapshot
+#### Step B2: Take an accessibility snapshot
 
 Use `mcp__playwright__browser_snapshot` — NOT a screenshot.
 
 The snapshot returns the accessibility tree with all calendar events as interactive elements.
+
+---
 
 ### Step 3: Parse events from the snapshot
 

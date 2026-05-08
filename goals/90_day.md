@@ -92,30 +92,38 @@ These actions were identified in PE-STRAT-03 and require immediate attention:
 
 ---
 
-### Priority 2: M2.2 — Streamline Approval Workflows by Establishing Reviewer Empowerment
+### Priority 2: M2.2 — Establish Role Accountability Across Change Management
 
-**Official V2MOM Description:** Deploy a framework that empowers CAB to reject bypasses and streamlines approvals through clearly defined authority.
+**Official V2MOM Description (UPDATED Apr 2026):** Define clear accountability, authority, and enablement for requesters (input quality), reviewers (process compliance), approvers (risk ownership), and implementers (execution validation) so that risk is owned by the right people and every role can act on gaps.
+
+**Scope Expansion Rationale:** The segregation of duties imposed on change management created an unintended side effect — risk review falls through the cracks. No single role is properly equipped to catch gaps between what the process defines and what the RFC requests. M2.2 now covers all four CM roles with clear accountability boundaries.
+
+**Critical Dependency:** M2.2 has a **hard dependency on M2.1** (Change Catalog & Catalog Articles). The catalog articles are the reference baseline that all roles assess against. Role frameworks can be designed in parallel with M2.1, but training, Jira implementation, and monitoring can only be effective once catalog articles exist (expected end of June 2026).
+
+**Four Role Boundaries:**
+1. **Requester — Input Quality:** Submit complete, catalog-aligned RFCs with enough context for all downstream roles
+2. **Reviewer — Process Compliance:** Validate RFC follows defined process against catalog article (inputs, outputs, rollback)
+3. **Approver — Risk Ownership:** Fully accountable for risk decision, owns call on executing in riskier rings
+4. **Implementer — Execution Validation:** Cross-check catalog article vs RFC before executing, refuse if gaps exist
 
 **Q1 2026 Deliverables:**
 - [x] Framework definition with risk criteria and reviewer tiers (Reviewers Framework published)
-- [ ] Define reviewer empowerment parameters and authority boundaries
-- [ ] Refine Fast Track approval criteria (based on Ops Review findings: 22% usage vs <5% target)
-- [ ] Develop Training Plan for Reviewers (escalation, rejection authority)
-- [ ] Present framework to VS Leaders with impact analysis
-- [ ] Establish monitoring for bypass rejection frequency and approval velocity
-- [ ] **[URGENT]** Review feasibility and baseline availability for "Standard Change Promotion Rate" metric (PE-STRAT-03 action item)
-- [ ] Jira Item: RSA-813 | Timeline: Q1 2026 | Effort: 5
+- [x] Scope expansion proposal drafted (Apr 22, 2026)
+- [ ] Define four-role accountability model (requester, reviewer, approver, implementer)
+- [ ] Validate dependency on M2.1 catalog articles timeline (end of June 2026)
+- [ ] Jira Item: RSA-813 | Timeline: **EXTENDED to Jul 2026–Feb 2027** | Effort: **37 SP (Strategic)**
 
 **Success Metric (V2MOM):**
-- **Bypass Frequency** reduction (tracked weekly)
-- Approval time < 24h for Standard/Normal changes
-- 100% segregation of duties compliance
-- Reviewer tier authority clearly understood by all teams
+- **RFC Submission Quality Rate:** % of RFCs that pass review without being returned for missing information (depends on M2.1 catalog articles)
+- **Approver Risk Accountability Rate:** % of RFCs where approver explicitly signs off on risk level (needs new Jira field)
+- **Implementer Rejection Rate:** % of RFCs where implementer raised catalog-vs-RFC gap (depends on M2.1 catalog articles)
+- **Manual Resilience Identification:** <20% by Q1 2027 (moved from M2.3, measures reviewer flagging of automation candidates)
 
-**Alternative Metric (Requires Review):**
-- **Standard Change Promotion Rate:** +50% increase by Q2 2027 (need H2 2024 baseline)
-- PE-STRAT-03 identifies Laura Ferreira to review feasibility and baseline availability
-- May overlap with M2.3 work (Standard Promotion governance)
+**Timeline Change:**
+- **Original:** Q1 2026 (May–Jul, 17 SP, Tactical)
+- **Updated:** Jul 2026–Feb 2027 (37 SP, Strategic)
+- **Phasing:** S-phase Jul–Nov, P-phase Dec–Jan, S-phase wrap Feb
+- **Rationale:** Expanded scope (4 roles vs 1 role) + M2.1 dependency (catalog articles available end of June)
 
 ---
 
@@ -168,7 +176,7 @@ These actions were identified in PE-STRAT-03 and require immediate attention:
 | ID | Method Summary | Success Metric | Timeline | Owner |
 |---|---|---|---|---|
 | M2.1 | Change Lead Time Reduction (16d → 11d) | -30% by Q2 2027 | Q1 2026 → Q2 2027 | **Laura (IN PROGRESS)** |
-| M2.2 | Streamline Approval Workflows by Establishing Reviewer Empowerment | Bypass Frequency | Q1 2026 | **Laura (IN PROGRESS)** |
+| M2.2 | Establish Role Accountability Across Change Management | RFC Quality / Risk Accountability / Execution Validation | **Jul 2026 → Feb 2027** | **Laura (SCOPE EXPANDED)** |
 | M2.3 | Manual Resilience Identification & Standard Promotion | <20% by Q1 2027 | Q1 2026 (Prep) / Q2-Q3 (Execute) | **Laura (Prep in Q1)** |
 | M2.4 | Enable Trusted Governance by Correlating CFR to Asset-Version Changes | >90% by Q4 2026 | Q2-Q3 2026 | **Paulo (Laura collaborates)** |
 | M2.5 | Harden Data Reliability by Building CFR Technical Implementation | >90% by Q4 2026 | Q3 2026 | **Paulo** |
@@ -184,8 +192,11 @@ These actions were identified in PE-STRAT-03 and require immediate attention:
 
 ## Not Doing This Quarter
 
-- Deep-dive on M2.4-M2.6 (CFR Correlation, Data Reliability, Lifecycle Automation) — scheduled for Q2/Q3
-- Focus is M2.1 & M2.2 delivery + M2.3 prep work only
+**Decisão (Apr 30, 2026):** Nenhum método novo avança enquanto M2.1 não estiver fechado end-to-end.
+
+- **M2.2** — Em pausa. Scope expansion com Vera + Thiago documentado mas não avança. Retoma após M2.1 implementado.
+- **M2.3** — Em pausa. Jira custom field e discovery ritual ficam pendentes até M2.1 concluído.
+- **M2.4–M2.6** — Fora de scope este quarter (Paulo owns M2.4-M2.5, M2.6 scheduled Q3).
 - Unrelated process improvements outside Change Management scope
 - New platform migrations or infrastructure projects that compete for team bandwidth
 
@@ -213,11 +224,12 @@ By end of Q1 2026, I should be able to say:
   - Q3 2026 tracking toward 15 days (-6%) ready
   - Operation Types analysis complete with overlap identification and top 3 Normal types analyzed
 
-- **M2.2 delivered:** 
-  - Reviewer Empowerment framework approved by VS Leaders with clear Fast Track criteria
-  - Training plan ready
-  - Bypass frequency baseline established and monitoring in place
-  - Feasibility review complete for Standard Change Promotion Rate metric (H2 2024 baseline confirmed or alternative metric identified)
+- **M2.2 scope expansion approved:** 
+  - Four-role accountability model defined (requester, reviewer, approver, implementer)
+  - Dependency on M2.1 catalog articles validated (end of June 2026 target)
+  - Timeline adjusted to Jul 2026–Feb 2027 (37 SP, Strategic)
+  - New metrics identified: RFC submission quality, approver risk accountability, implementer rejection rate
+  - Scope expansion proposal presented to Vera + Thiago (Apr 22, 2026)
 
 - **M2.3 prep complete:** 
   - Jira custom field "Reviewer Decision Reason" created and operational

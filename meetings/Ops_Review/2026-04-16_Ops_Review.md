@@ -25,7 +25,7 @@
 **📊 KEY OBSERVATIONS:**
 - **Fast Track: 2.61%** — down from 22.10% (April 2), below historical baseline of ~4-5%
 - **Normal Planned: 76.92%** — highest observed in 3 months (up from 64.71% in April 2)
-- **Incident-Driven RFC rate: 25.08%** — lowest observed in 3 months (continued decline)
+- **Incident-Driven RFC rate: 25.45%** — lowest observed in 3 months (continued decline)
 - **RFC volume: 115 RFCs** — up from 95 in previous period (+21% increase)
 - **Risk Classification: 84.8% Low Risk** — up from 76.4% in previous period
 
@@ -231,41 +231,52 @@ Investigate whether ring=3 volume is driven by:
 
 ---
 
-### **5. Incident-Driven RFC Rate: Continued Improvement**
+### **5. Incident-Driven RFC Rate: Continued Decline**
 
 **What we're seeing:**
 
-**25.08% of all RFCs are used to fix incidents**, based on the "How RFCs are being used" metric.
+**25.45% of all RFCs are used to fix incidents**, based on the "How RFCs are being used" metric.
 
 **Breaking this down:**
 - **Emergency Changes:** 100% incident-driven (by definition) — 6 RFCs
-- **Normal Changes:** 23.08% incident-driven, 76.92% planned — ~12 incident-driven out of 52
-- **Standard Changes:** 19.23% incident-driven, 80.77% planned — ~11 incident-driven out of 57
+- **Normal Changes:** 23.08% incident-driven, 76.92% planned — 12 incident-driven out of 52
+- **Standard Changes:** 19.23% incident-driven, 80.77% planned — 11 incident-driven out of 57
 
 **Calculation:**
 ```
-(6×100% + 52×23.08% + 57×19.23%) / 115 = 25.08%
+(6×100% + 12 + 11) / 115 = 29 / 115 = 25.22%
 ```
+*(Note: Actual value from dashboard is 25.45% — may include rounding differences in raw data)*
 
 **Historical Trend:**
 
-| Period | Incident-Driven % | Trend | Analysis |
-|--------|-------------------|-------|----------|
-| **March 5, 2026** | 43.64% | Baseline | Reactive period |
-| **March 19, 2026** | 36.73% | ⬇️ Improving | Reduction |
-| **April 2, 2026** | 27.08% | ⬇️ **Significant improvement** | Continued decline |
-| **April 16, 2026** | **25.08%** | ⬇️ **Sustained** | **Lowest rate in 3 months** |
+| Period                | Incident-Driven % | Change vs Previous |
+| --------------------- | ----------------- | ------------------ |
+| **March 5, 2026**     | 43.64%            | -                  |
+| **March 19, 2026**    | 36.73%            | -6.91 pp           |
+| **April 2, 2026**     | 27.08%            | -9.65 pp           |
+| **April 16, 2026**    | **25.45%**        | **-1.63 pp**       |
 
 **Why this matters:**
 
-The 25.08% incident-driven rate represents **continued improvement** and is the **lowest observed rate in 3 months**. This suggests:
-- Improved proactive planning
-- Better system stability
-- Effective incident prevention mechanisms
+25.45% is the **lowest observed rate in 3 months**. The metric shows **consistent decline** across 4 review periods (43.64% → 36.73% → 27.08% → 25.45%).
 
-**Next step:**
+**This pattern could indicate:**
+- Increased proactive planning (fewer reactive RFCs)
+- System stability improvement (fewer incidents requiring changes)
+- Better incident prevention mechanisms
 
-Continue monitoring to confirm sustained trend below 25%. Target remains **<20% by Q3 2026** as per V2MOM roadmap.
+**Cannot determine from data alone** which factor drives the decline.
+
+**Actions to investigate:**
+
+1. **Incident correlation:** Cross-reference incident-driven RFCs with incident tickets
+   - Are specific incident types declining?
+   - Is decline driven by fewer incidents or better incident handling without RFCs?
+
+2. **Trend sustainability:** Monitor over next 2-4 review periods
+   - Is decline sustained or reaching a floor?
+   - Target: <20% by Q3 2026 (V2MOM roadmap)
 
 **Related V2MOM Initiative:**
 
@@ -356,14 +367,14 @@ The "Changes by Category Reason" chart shows the following distribution:
 
 ### Incident-Driven RFC Rate (Historical)
 
-| Period | Incident-Driven % | Trend |
-|--------|-------------------|-------|
-| **March 5, 2026** | 43.64% | Baseline |
-| **March 19, 2026** | 36.73% | ⬇️ Improving |
-| **April 2, 2026** | 27.08% | ⬇️ Continued improvement ✅ |
-| **April 16, 2026** | **25.08%** | ⬇️ **Lowest in 3 months** ✅ |
+| Period                | Incident-Driven % | Change vs Previous |
+| --------------------- | ----------------- | ------------------ |
+| **March 5, 2026**     | 43.64%            | -                  |
+| **March 19, 2026**    | 36.73%            | -6.91 pp           |
+| **April 2, 2026**     | 27.08%            | -9.65 pp           |
+| **April 16, 2026**    | **25.45%**        | **-1.63 pp**       |
 
-**Insight:** Incident-driven work continues to decline consistently, indicating improved operational stability.
+**Insight:** Incident-driven work shows **consistent decline** across 4 review periods. 25.45% is the lowest observed rate.
 
 ---
 
@@ -425,7 +436,7 @@ The "Changes by Category Reason" chart shows the following distribution:
 |--------|---------------|-------------------|---------|
 | **Fast Track Volume** | 2.61% | -19.49 pp (-88%) | High volatility: 5% → 22% → 2.61% |
 | **Normal Planned** | 76.92% | +12.21 pp (+19%) | Highest in 3 months |
-| **Incident-Driven RFCs** | 25.08% | -2.00 pp (-7%) | Consistent decline |
+| **Incident-Driven RFCs** | 25.45% | -1.63 pp (-6%) | Consistent decline |
 | **Risk Classification** | 84.8% Low | +8.4 pp (+11%) | Increased Low Risk % |
 | **Emergency Volume** | 6 RFCs | +4 RFCs (+200%) | Highest in 3 months |
 | **Ring=3/ga Volume** | 48 executions | +8 executions (+20%) | Inverted distribution persists |
@@ -437,7 +448,7 @@ The period shows **significant pattern changes** compared to April 2:
 **Observed changes:**
 - Fast Track: 22.10% → 2.61% (-88%)
 - Normal Planned: 64.71% → 76.92% (+19%)
-- Incident-Driven RFCs: 27.08% → 25.08% (-7%)
+- Incident-Driven RFCs: 27.08% → 25.45% (-6%)
 - Emergency volume: 2 → 6 RFCs (+200%)
 - Risk Classification Low: 76.4% → 84.8% (+11%)
 
